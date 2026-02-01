@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --primary-color: #1a1a1a;
     --secondary-color: #d32f2f;
@@ -959,6 +960,7 @@ html {
         transform: translateY(0);
     }
 }
+
 
 .news-card,
 .opinion-card,
