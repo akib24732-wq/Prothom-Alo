@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ button {
     font-family: inherit;
 }
 
-/* Header Styles */
+
 .header {
     background-color: var(--bg-white);
     border-bottom: 3px solid var(--secondary-color);
@@ -135,7 +135,7 @@ button {
     border-color: var(--text-primary);
 }
 
-/* Navigation Styles */
+
 .navbar {
     background-color: var(--primary-color);
     position: sticky;
@@ -186,12 +186,12 @@ button {
     transform: translateX(-50%) scaleX(1);
 }
 
-/* Main Content */
+
 .main-content {
     padding: 30px 0;
 }
 
-/* Breaking News Banner */
+
 .breaking-news {
     background: linear-gradient(135deg, var(--secondary-color), #c62828);
     color: white;
@@ -220,7 +220,7 @@ button {
     font-weight: 600;
 }
 
-/* Featured Section */
+
 .featured-section {
     margin-bottom: 50px;
 }
@@ -344,7 +344,7 @@ button {
     color: var(--text-secondary);
 }
 
-/* Featured Side Cards */
+
 .featured-side {
     display: flex;
     flex-direction: column;
@@ -397,7 +397,7 @@ button {
     display: block;
 }
 
-/* Opinion Section */
+
 .opinion-section {
     margin-bottom: 50px;
 }
@@ -516,7 +516,7 @@ button {
     color: var(--text-secondary);
 }
 
-/* Latest News Section */
+
 .latest-news {
     margin-bottom: 50px;
 }
@@ -632,7 +632,7 @@ button {
     transform: scale(1.05);
 }
 
-/* Sidebar Widgets */
+
 .sidebar-widgets {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -699,7 +699,7 @@ button {
     color: var(--text-light);
 }
 
-/* Newsletter Widget */
+
 .newsletter p {
     font-size: 14px;
     color: var(--text-secondary);
@@ -739,7 +739,7 @@ button {
     background-color: #b71c1c;
 }
 
-/* Footer */
+
 .footer {
     background-color: var(--primary-color);
     color: white;
@@ -831,7 +831,7 @@ button {
     color: #999;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .featured-grid {
         grid-template-columns: 1fr;
@@ -937,18 +937,18 @@ button {
     }
 }
 
-/* Smooth Scrolling */
+
 html {
     scroll-behavior: smooth;
 }
 
-/* Selection Color */
+
 ::selection {
     background-color: var(--secondary-color);
     color: white;
 }
 
-/* Loading Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
